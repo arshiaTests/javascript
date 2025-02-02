@@ -18,6 +18,6 @@ function isEvenOrOdd (a){
         return"Odd"
     }
 }
-console.log(isEvenOrOdd(5));
+console.log(isEvenOrOdd(85));
 console.log(isEvenOrOdd(4));
 module.exports = isEvenOrOdd;
