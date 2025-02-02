@@ -11,13 +11,7 @@
  */
 
 // Write your solution here
-
-function celsiusToFahrenheit (c){
-    return (c*9/5)+32;
-
-}
-console.log(celsiusToFahrenheit(0));
-console.log(celsiusToFahrenheit(100));
-
+let celsiusToFahrenheit=(num) => (num *9/5)+32;
+console.log(celsiusToFahrenheit(100))
 
 module.exports = celsiusToFahrenheit;
