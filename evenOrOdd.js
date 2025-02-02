@@ -11,13 +11,15 @@
  */
 
 // Write your solution here
-function isEvenOrOdd (a){
-    if (a % 2 == 0) {
-        return"Even"
+const isEvenOrOdd = (a) => {
+    if (a % 2 === 0) {
+        return "Even";
     } else {
-        return"Odd"
+        return "Odd";
     }
-}
-console.log(isEvenOrOdd(85));
-console.log(isEvenOrOdd(4));
+};
+
+console.log(isEvenOrOdd(85)); 
+console.log(isEvenOrOdd(4));  
+
 module.exports = isEvenOrOdd;
